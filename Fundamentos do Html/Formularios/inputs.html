@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs do HTML</title>
+</head>
+<body>
+    <h1>Inputs do HTML</h1>
+
+    <form>
+        <!--Campo de Texto-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="texto" name="nome" required placeholder="Ex: Eduardo">
+        <br><br>
+        
+        <!--Campo de Email-->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <!--Campo de Senha-->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+
+        <!--Campo de Seleção radio-->
+        <label for="">Gênero:</label>
+        <input type="radio" name="radio" id="masculino" value="m">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="radio" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <br><br>
+
+        <!--Campo de Seleção Multipla (checkbox)-->
+        <label for="">Interesses:</label>
+        <input type="checkbox" id="backend" value="backend" name="interesses">
+        <label for="backend">Back-End</label>
+        <input type="checkbox" id="frontend" value="frontend" name="interesses">
+        <label for="frontend">Front-End</label>
+        <input type="checkbox" id="mobile" value="mobile" name="interesses">
+        <label for="mobile">Mobile</label>
+        <br><br>
+        
+        <!--Campo de Data-->
+        <label for="dataDeNacismento">Data de Nascimento:</label>
+        <input type="date" id="dataDeNacismento" name="nascimento">
+        <br><br>
+
+        <!--Campo de Arquivo (uploads)-->
+        <label for="fotoDePerfil">Foto de Perfil:</label>
+        <input type="file" name="avatar" id="fotoDePerfil">
+        <br><br>
+
+        <!--Campo de Caixas de Seleção-->
+        <label for="situacao">Situação Atual:</label>
+        <select name="situacao" id="situacao">
+            <option value="" selected disabled>Selecione uma das opções...</option>
+            <option value="estudante">Estudando para me tornar um programador</option>
+            <option value="estagiario">Atuando como estagiario/trainee</option>
+            <option value="junior">Atuando como desenvolvedor junior</option>
+            <option value="pleno">Atuando como desenvolvedor pleno</option>
+            <option value="senior">atuando como desenvolvedor senior</option>
+        </select>
+        <br><br>
+        <!--Campo de área de texto de multiplas linhas-->
+        <label for="sobre">Sobre mim:</label>
+        <textarea name="sobre" id="sobre" cols="30" rows="4" placeholder="Fale um pouco sobre você..."></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

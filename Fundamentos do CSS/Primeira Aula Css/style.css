@@ -1,0 +1,25 @@
+li {
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    border: white 1px dashed;
+}
+
+h3 {
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/* adiciona uma imagem ao background e faz com que nao se repita, ajudando o tamanho automatico */
+
+/* body {
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
