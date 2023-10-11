@@ -1,0 +1,25 @@
+.post-container{ 
+    margin: 0px auto 0px auto;
+    width: 70%;
+    height: 100%;
+    background-color: #fffafa;
+}
+
+.post {
+    padding: 10px 0px 10px 0px ;
+    margin-left: 50px;
+}
+
+.date {
+    font-family: Roboto;
+    color: #008080;
+}
+
+.post h1 {
+    font-family:  Montserrat;
+}
+
+.post-content {
+    font-family: Open Sans;
+    font-size: 13px;
+}
