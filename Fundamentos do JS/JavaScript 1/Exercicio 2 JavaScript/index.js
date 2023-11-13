@@ -28,7 +28,10 @@ if((dano_poder > defesa_personagem) && (possui_escudo == "nao")) {
 }
 vida_final = (vida_personagem - dano)
 
-alert("Personagem 1: " + "\n" + "Nome: "+ nome_personagem1 + "\n" +  "Dano de ataque: " + dano + "\n" + "\n" + "Personagem 2: " + "\n" + "Nome: " + nome_personagem2 + "\n" + "Vida: " + vida_personagem + "\n" + "Defesa: " + defesa_personagem + "\n" + "Tem escudo: " + possui_escudo + "\n" + "Vida Final: " + vida_final)
+alert("Personagem 1: " + "\n" + "Nome: "+ nome_personagem1 + "\n" +  "Dano de ataque: " + dano + "\n" 
++ "\n" + "Personagem 2: " + "\n" + "Nome: " + nome_personagem2 + "\n" + "Vida: " + vida_personagem 
++ "\n" + "Defesa: " + defesa_personagem + "\n" + "Tem escudo: " + possui_escudo + "\n" 
++ "Vida Final: " + vida_final)
 
 
 
