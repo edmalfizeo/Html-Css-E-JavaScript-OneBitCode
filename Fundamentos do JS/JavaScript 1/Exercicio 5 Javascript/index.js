@@ -29,7 +29,7 @@ let dinheiroNumero = parseFloat(dinheiro)
 let opcao, somaDinheiro,subDinheiro;
 do {
     opcao = prompt(
-      "Dinheiro: " +
+      "Dinheiro: R$" +
         dinheiroNumero +
         "\n" +
         "1 - adicionar dinheiro \n 2 - remover dinheiro \n 3 - Sair do programa"
