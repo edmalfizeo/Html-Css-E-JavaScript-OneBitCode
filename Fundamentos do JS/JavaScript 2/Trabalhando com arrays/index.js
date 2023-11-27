@@ -24,4 +24,33 @@ console.log(array)
 console.log(ultimoElemento)
 
 // Pesquisar por um elemento
-//parei na parte 10:39 do video Trabalhando com array parte 1
+// include
+const inclui = array.includes("Gandalf")
+console.log(inclui)
+
+// indexOf
+const indice = array.indexOf("Gandalf")
+console.log(indice)
+
+// Cortar e Concatenar
+// slice
+const hobbit = array.slice(0, 4)
+const outros = array.slice(-4)
+console.log(hobbit)
+console.log(outros)
+
+// concat
+const sociedade = hobbit.concat(outros, "Boromir")
+console.log(sociedade)
+
+// Substituição dos Elementos
+// splice
+const elementosRemovidos = sociedade.splice(indice, 1, "Gandalf o Cinzento")
+console.log(sociedade)
+console.log(elementosRemovidos)
+
+// Iterar sobre os Elementos
+for(let indice = 0; indice < sociedade.length; indice++){
+    const elemento = sociedade[indice]
+    console.log(elemento + " Se encontra na posição " + indice) 
+}
