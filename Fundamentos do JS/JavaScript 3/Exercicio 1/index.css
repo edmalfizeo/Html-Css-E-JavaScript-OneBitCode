@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+main {
+    margin-left: 0.5%;
+}
+
+.addPlayer h2{
+    margin-top: 1%;
+    margin-bottom: 0.7%;
+}
+
+.firstLabel label{
+    margin-left: 1%;
+}
+
+.firstLabel label:first-child {
+    margin-left: 0%;
+}
+
+.firstLabel button{
+    margin-left: 0.5%;
+}
+
+.secondLabel button{
+    margin-left: 0.5%;
+}
+
+.removePlayer h2{
+    margin-top: 1%;
+    margin-bottom: 0.7%;
+}
+
+.team-Lineup{
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+
+.team-Lineup h4{
+    margin-top: 0.5%;
+}
+
+.team-Lineup li{
+    margin-top: 0.7%;
+}
